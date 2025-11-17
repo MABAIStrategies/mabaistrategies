@@ -82,6 +82,19 @@ function initializeCalculator() {
         const industryMultipliers = {
             'healthcare': 0.35,
             'telecom': 0.40,
+            'financial': 0.32,
+            'manufacturing': 0.30,
+            'retail': 0.28,
+            'education': 0.25,
+            'energy': 0.30,
+            'insurance': 0.33,
+            'logistics': 0.34,
+            'hospitality': 0.26,
+            'realestate': 0.27,
+            'government': 0.29,
+            'legal': 0.31,
+            'technology': 0.36,
+            'professional': 0.29,
             'other': 0.30
         };
         
@@ -193,7 +206,7 @@ function initializeCalculator() {
                         </ul>
                     </div>
                     <div class="flex space-x-4">
-                        <button onclick="window.open('https://calendly.com/mab-aistrategies', '_blank')" 
+                        <button onclick="window.open('https://calendar.app.google/ihniQhQRXbMXFxog6', '_blank')" 
                                 class="bg-copper-600 text-white px-6 py-3 rounded-lg hover:bg-copper-700 transition-colors">
                             Schedule Strategy Call
                         </button>
@@ -345,7 +358,7 @@ function initializeAssessmentQuiz() {
                     <h4 class="font-semibold mb-2">Recommendation:</h4>
                     <p class="text-slate-700">${recommendation}</p>
                 </div>
-                <button onclick="window.open('https://calendly.com/mab-aistrategies', '_blank')" 
+                <button onclick="window.open('https://calendar.app.google/ihniQhQRXbMXFxog6', '_blank')" 
                         class="bg-copper-600 text-white px-8 py-3 rounded-lg hover:bg-copper-700 transition-colors">
                     Schedule Strategy Call
                 </button>
@@ -537,7 +550,7 @@ function openToolDemo(toolType) {
         <div class="bg-white rounded-lg p-8 max-w-lg w-full mx-4">
             ${demoContent}
             <div class="flex space-x-4 mt-6">
-                <button onclick="window.open('https://calendly.com/mab-aistrategies', '_blank')" 
+                <button onclick="window.open('https://calendar.app.google/ihniQhQRXbMXFxog6', '_blank')" 
                         class="flex-1 bg-copper-600 text-white px-6 py-3 rounded-lg hover:bg-copper-700 transition-colors">
                     Schedule Full Demo
                 </button>
@@ -659,7 +672,7 @@ function generateCaseStudy() {
                 </div>
             </div>
             <div class="text-center">
-                <a href="https://calendly.com/mab-aistrategies" target="_blank" 
+                <a href="https://calendar.app.google/ihniQhQRXbMXFxog6" target="_blank" 
                    class="bg-copper-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-copper-700 transition-colors">
                     Get Your Custom Strategy
                 </a>
@@ -797,7 +810,7 @@ function showServiceDetails(serviceType) {
             </div>
             
             <div class="flex space-x-4">
-                <a href="https://calendly.com/mab-aistrategies" target="_blank" 
+                <a href="https://calendar.app.google/ihniQhQRXbMXFxog6" target="_blank" 
                    class="flex-1 bg-copper-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-copper-700 transition-colors text-center">
                     Schedule Consultation
                 </a>
