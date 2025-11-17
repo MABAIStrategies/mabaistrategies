@@ -271,7 +271,10 @@
             </div>
             
             <div class="bg-white rounded-lg shadow-lg p-8">
-                <form class="contact-form space-y-6" onsubmit="handleContactSubmit(event)">
+                <form class="contact-form space-y-6"action="https://api.web3forms.com/submit" method="POST">
+                                    <input type="hidden" name="access_key" value="3e8c5367-08d3-490b-b9a4-84f6953472b8">
+                                    <input type="hidden" name="subject" value="New Contact Form Submission from MAB AI Strategies">
+                                    <input type="hidden" name="redirect" value="https://www.mabaistrategies.com/contact.html?success=true">
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
                             <label for="first-name" class="block text-sm font-semibold text-slate-700 mb-2">First Name *</label>
