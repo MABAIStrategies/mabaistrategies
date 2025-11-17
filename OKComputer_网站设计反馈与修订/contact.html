@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact MAB AI Strategies - Schedule Your AI Strategy Consultation</title>
+    <meta name="description" content="Ready to transform your operations? Schedule a consultation, request information, or get your questions answered. Multiple ways to connect with our AI experts.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'copper': {
+                            600: '#c17817',
+                            100: '#fed7aa'
+                        }
+                    },
+                    fontFamily: {
+                        'display': ['Playfair Display', 'serif'],
+                        'body': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Core Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <style>
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease-out;
+        }
+        
+        .animate-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .glass-nav {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.9);
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+            opacity: 1;
+            padding-top: 1rem;
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="font-body text-slate-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 glass-nav">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <img src="resources/company-logo.png" alt="MAB AI Strategies" class="h-10 w-auto">
+                    <a href="index.html" class="text-xl font-bold text-slate-800 ml-3">MAB AI Strategies</a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-slate-700 hover:text-copper-600 transition-colors">Home</a>
+                    <a href="about.html" class="text-slate-700 hover:text-copper-600 transition-colors">About</a>
+                    <a href="services.html" class="text-slate-700 hover:text-copper-600 transition-colors">Services</a>
+                    <a href="contact.html" class="text-copper-600 font-semibold">Contact</a>
+                    <a href="https://calendly.com/mab-aistrategies" target="_blank" 
+                       class="bg-copper-600 text-white px-4 py-2 rounded-lg hover:bg-copper-700 transition-colors">
+                        Schedule Call
+                    </a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden mobile-menu-btn">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden pb-4">
+                <a href="index.html" class="block py-2 text-slate-700 hover:text-copper-600">Home</a>
+                <a href="about.html" class="block py-2 text-slate-700 hover:text-copper-600">About</a>
+                <a href="services.html" class="block py-2 text-slate-700 hover:text-copper-600">Services</a>
+                <a href="contact.html" class="block py-2 text-copper-600 font-semibold">Contact</a>
+                <a href="https://calendly.com/mab-aistrategies" target="_blank" 
+                   class="block mt-4 bg-copper-600 text-white px-4 py-2 rounded-lg text-center">
+                    Schedule Call
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center animate-on-scroll">
+                <h1 class="text-5xl lg:text-6xl font-display font-bold text-slate-800 mb-6 leading-tight">
+                    Let's Transform Your Operations
+                </h1>
+                <p class="text-xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Ready to unlock the power of AI automation? Choose how you'd like to connect with our team and start your transformation journey.
+                </p>
+                
+                <!-- Quick Stats -->
+                <div class="flex flex-wrap justify-center gap-8 mb-12 text-sm">
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-copper-600">24 Hours</div>
+                        <div class="text-slate-600">Response Time</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-copper-600">30 Min</div>
+                        <div class="text-slate-600">Strategy Sessions</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-copper-600">Free</div>
+                        <div class="text-slate-600">Initial Consultation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Options -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl font-display font-bold text-slate-800 mb-4">
+                    Choose Your Connection Method
+                </h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+                    Multiple ways to get started, depending on your preferences and urgency.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Schedule Strategy Call -->
+                <div class="contact-card bg-slate-50 rounded-lg p-8 transition-all duration-300 animate-on-scroll">
+                    <div class="w-16 h-16 bg-copper-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-copper-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3a2 2 0 012-2h4a2 2 0 012 2v4m-6 0V6a2 2 0 012-2h4a2 2 0 012 2v1m-6 0h8m-8 0v10a2 2 0 002 2h4a2 2 0 002-2V8a2 2 0 00-2-2H8z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4 text-center">Strategy Call</h3>
+                    <p class="text-slate-600 mb-6 text-center">
+                        Book a 30-minute strategy session to discuss your specific challenges and explore AI solutions tailored to your business.
+                    </p>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center text-sm">
+                            <div class="w-2 h-2 bg-copper-600 rounded-full mr-3"></div>
+                            <span>Direct access to AI strategy expert</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <div class="w-2 h-2 bg-copper-600 rounded-full mr-3"></div>
+                            <span>Personalized recommendations</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <div class="w-2 h-2 bg-copper-600 rounded-full mr-3"></div>
+                            <span>Clear next steps and timeline</span>
+                        </div>
+                    </div>
+                    
+                    <a href="https://calendly.com/mab-aistrategies" target="_blank" 
+                       class="block w-full bg-copper-600 text-white py-3 rounded-lg font-semibold hover:bg-copper-700 transition-colors text-center">
+                        Book Strategy Call
+                    </a>
+                </div>
+                
+                <!-- Quick Contact Form -->
+                <div class="contact-card bg-slate-50 rounded-lg p-8 transition-all duration-300 animate-on-scroll">
+                    <div class="w-16 h-16 bg-copper-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-copper-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4 text-center">Send Message</h3>
+                    <p class="text-slate-600 mb-6 text-center">
+                        Prefer to start with written communication? Send us your questions and we'll respond with detailed information within 24 hours.
+                    </p>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center text-sm">
+                            <div class="w-2 h-2 bg-copper-600 rounded-full mr-3"></div>
+                            <span>Detailed written response</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <div class="w-2 h-2 bg-copper-600 rounded-full mr-3"></div>
+                            <span>Resource recommendations</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <div class="w-2 h-2 bg-copper-600 rounded-full mr-3"></div>
+                            <span>No sales pressure</span>
+                        </div>
+                    </div>
+                    
+                    <button onclick="document.getElementById('contact-form').scrollIntoView({behavior: 'smooth'})" 
+                            class="block w-full bg-slate-800 text-white py-3 rounded-lg font-semibold hover:bg-slate-900 transition-colors">
+                        Send Message
+                    </button>
+                </div>
+                
+                <!-- Phone Consultation -->
+                <div class="contact-card bg-slate-50 rounded-lg p-8 transition-all duration-300 animate-on-scroll">
+                    <div class="w-16 h-16 bg-copper-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-copper-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4 text-center">Call Now</h3>
+                    <p class="text-slate-600 mb-6 text-center">
+                        Need immediate answers? Speak directly with our AI strategy team. Perfect for urgent questions or complex scenarios requiring real-time discussion.
+                    </p>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center text-sm">
+                            <div class="w-2 h-2 bg-copper-600 rounded-full mr-3"></div>
+                            <span>Immediate expert consultation</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <div class="w-2 h-2 bg-copper-600 rounded-full mr-3"></div>
+                            <span>Complex problem discussion</span>
+                        </div>
+                        <div class="flex items-center text-sm">
+                            <div class="w-2 h-2 bg-copper-600 rounded-full mr-3"></div>
+                            <span>Business hours: 9 AM - 6 PM EST</span>
+                        </div>
+                    </div>
+                    
+                    <a href="tel:+1-555-AI-STRATEGY" 
+                       class="block w-full bg-slate-200 text-slate-700 py-3 rounded-lg font-semibold hover:bg-slate-300 transition-colors text-center">
+                        (555) AI-STRATEGY
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact-form" class="py-20 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl font-display font-bold text-slate-800 mb-4">
+                    Send Us a Message
+                </h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+                    Tell us about your challenges and goals. We'll respond with personalized recommendations and next steps.
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <form class="contact-form space-y-6" onsubmit="handleContactSubmit(event)">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="first-name" class="block text-sm font-semibold text-slate-700 mb-2">First Name *</label>
+                            <input type="text" id="first-name" name="firstName" required 
+                                   class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="last-name" class="block text-sm font-semibold text-slate-700 mb-2">Last Name *</label>
+                            <input type="text" id="last-name" name="lastName" required 
+                                   class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="email" class="block text-sm font-semibold text-slate-700 mb-2">Email Address *</label>
+                            <input type="email" id="email" name="email" required 
+                                   class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-semibold text-slate-700 mb-2">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" 
+                                   class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="company" class="block text-sm font-semibold text-slate-700 mb-2">Company Name *</label>
+                            <input type="text" id="company" name="company" required 
+                                   class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="industry" class="block text-sm font-semibold text-slate-700 mb-2">Industry *</label>
+                            <select id="industry" name="industry" required 
+                                    class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent">
+                                <option value="">Select Industry</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="telecom">Telecom</option>
+                                <option value="financial">Financial Services</option>
+                                <option value="manufacturing">Manufacturing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label for="company-size" class="block text-sm font-semibold text-slate-700 mb-2">Company Size</label>
+                        <select id="company-size" name="companySize" 
+                                class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent">
+                            <option value="">Select Company Size</option>
+                            <option value="1-50">1-50 employees</option>
+                            <option value="51-200">51-200 employees</option>
+                            <option value="201-1000">201-1000 employees</option>
+                            <option value="1000+">1000+ employees</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="interest" class="block text-sm font-semibold text-slate-700 mb-2">Primary Interest *</label>
+                        <select id="interest" name="interest" required 
+                                class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent">
+                            <option value="">Select Your Interest</option>
+                            <option value="ai-agents">Custom AI Agent Development</option>
+                            <option value="automation">Process Automation Systems</option>
+                            <option value="consulting">AI Strategy Consulting</option>
+                            <option value="assessment">AI Readiness Assessment</option>
+                            <option value="general">General Information</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-sm font-semibold text-slate-700 mb-2">Tell us about your challenges and goals *</label>
+                        <textarea id="message" name="message" rows="5" required 
+                                  placeholder="Describe your current processes, pain points, and what you hope to achieve with AI automation..."
+                                  class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent"></textarea>
+                    </div>
+                    
+                    <div>
+                        <label for="timeline" class="block text-sm font-semibold text-slate-700 mb-2">Project Timeline</label>
+                        <select id="timeline" name="timeline" 
+                                class="w-full p-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-copper-600 focus:border-transparent">
+                            <option value="">Select Timeline</option>
+                            <option value="immediate">Immediately (within 1 month)</option>
+                            <option value="short-term">Short-term (1-3 months)</option>
+                            <option value="medium-term">Medium-term (3-6 months)</option>
+                            <option value="long-term">Long-term (6+ months)</option>
+                            <option value="exploring">Just exploring options</option>
+                        </select>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <input type="checkbox" id="newsletter" name="newsletter" 
+                               class="mt-1 mr-3 h-4 w-4 text-copper-600 focus:ring-copper-600 border-slate-300 rounded">
+                        <label for="newsletter" class="text-sm text-slate-600">
+                            I'd like to receive occasional insights about AI automation trends and best practices. (Optional - unsubscribe anytime)
+                        </label>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button type="submit" 
+                                class="bg-copper-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-copper-700 transition-colors">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl font-display font-bold text-slate-800 mb-4">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+                    Quick answers to common questions about our AI services and approach.
+                </p>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="faq-item bg-slate-50 rounded-lg animate-on-scroll">
+                    <button onclick="toggleFAQ(this)" class="w-full text-left p-6 focus:outline-none">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">How long does a typical AI implementation take?</h3>
+                            <svg class="w-5 h-5 text-copper-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="faq-answer px-6 pb-6">
+                        <p class="text-slate-600">
+                            Most initial AI implementations take 4-8 weeks from discovery to deployment. This includes a comprehensive assessment, strategy development, solution building, and testing. We focus on high-impact, rapid wins first, then expand functionality based on results and feedback.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-slate-50 rounded-lg animate-on-scroll">
+                    <button onclick="toggleFAQ(this)" class="w-full text-left p-6 focus:outline-none">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">What's the typical ROI for AI automation?</h3>
+                            <svg class="w-5 h-5 text-copper-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="faq-answer px-6 pb-6">
+                        <p class="text-slate-600">
+                            Our clients typically see 200-500% ROI within the first year. The exact return depends on your current processes, automation potential, and implementation scope. We provide detailed ROI projections during the assessment phase and track performance to ensure you achieve projected results.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-slate-50 rounded-lg animate-on-scroll">
+                    <button onclick="toggleFAQ(this)" class="w-full text-left p-6 focus:outline-none">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">Do you work with companies outside healthcare and telecom?</h3>
+                            <svg class="w-5 h-5 text-copper-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="faq-answer px-6 pb-6">
+                        <p class="text-slate-600">
+                            While we specialize in healthcare and telecom due to our deep domain expertise and compliance knowledge, we do work with select companies in other industries. Our approach and methodologies translate well to any organization with complex, repeatable processes.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-slate-50 rounded-lg animate-on-scroll">
+                    <button onclick="toggleFAQ(this)" class="w-full text-left p-6 focus:outline-none">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">What makes MAB AI Strategies different from other AI consultants?</h3>
+                            <svg class="w-5 h-5 text-copper-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="faq-answer px-6 pb-6">
+                        <p class="text-slate-600">
+                            Three key differentiators: (1) Proven enterprise experience with $12M+ revenue impact at Verizon, (2) Deep technical capability with 40+ custom AI agents built, and (3) The D1 athlete mindset focused on measurable performance and results. You work directly with the expert, not junior consultants.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-slate-50 rounded-lg animate-on-scroll">
+                    <button onclick="toggleFAQ(this)" class="w-full text-left p-6 focus:outline-none">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">How do you ensure HIPAA compliance for healthcare clients?</h3>
+                            <svg class="w-5 h-5 text-copper-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="faq-answer px-6 pb-6">
+                        <p class="text-slate-600">
+                            We build all healthcare solutions with HIPAA compliance as a core requirement, not an afterthought. This includes encrypted data transmission, audit logging, access controls, business associate agreements, and regular security assessments. We maintain current HIPAA certification and stay updated on evolving requirements.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item bg-slate-50 rounded-lg animate-on-scroll">
+                    <button onclick="toggleFAQ(this)" class="w-full text-left p-6 focus:outline-none">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-lg font-semibold text-slate-800">What's included in the free initial consultation?</h3>
+                            <svg class="w-5 h-5 text-copper-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="faq-answer px-6 pb-6">
+                        <p class="text-slate-600">
+                            The consultation includes a discussion of your current challenges, identification of potential automation opportunities, high-level ROI projections, and recommended next steps. There's no sales pressure—our goal is to provide value and help you understand if AI automation makes sense for your organization.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Information -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-4xl font-display font-bold text-slate-800 mb-4">
+                    Get in Touch
+                </h2>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+                    Multiple ways to reach our team and stay connected.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center animate-on-scroll">
+                    <div class="w-16 h-16 bg-copper-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-copper-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Email</h3>
+                    <p class="text-slate-600 mb-4">For detailed questions and document sharing</p>
+                    <a href="mailto:mark@mab-aistrategies.com" class="text-copper-600 font-semibold hover:text-copper-700 transition-colors">
+                        mark@mab-aistrategies.com
+                    </a>
+                </div>
+                
+                <div class="text-center animate-on-scroll">
+                    <div class="w-16 h-16 bg-copper-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-copper-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Phone</h3>
+                    <p class="text-slate-600 mb-4">For immediate answers and real-time discussion</p>
+                    <a href="tel:+1-555-AI-STRATEGY" class="text-copper-600 font-semibold hover:text-copper-700 transition-colors">
+                        (555) AI-STRATEGY
+                    </a>
+                    <div class="text-sm text-slate-500 mt-2">Mon-Fri 9 AM - 6 PM EST</div>
+                </div>
+                
+                <div class="text-center animate-on-scroll">
+                    <div class="w-16 h-16 bg-copper-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-copper-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-800 mb-2">Response Time</h3>
+                    <p class="text-slate-600 mb-4">We respond to all inquiries within</p>
+                    <div class="text-copper-600 font-semibold text-2xl">24 Hours</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <div class="text-2xl font-bold mb-4">MAB AI Strategies LLC</div>
+                <p class="text-slate-400 mb-6">Transforming Healthcare & Telecom with Enterprise AI</p>
+                <div class="flex justify-center space-x-6 mb-8">
+                    <a href="mailto:mark@mab-aistrategies.com" class="text-slate-400 hover:text-white transition-colors">
+                        mark@mab-aistrategies.com
+                    </a>
+                    <a href="tel:+1-555-AI-STRATEGY" class="text-slate-400 hover:text-white transition-colors">
+                        (555) AI-STRATEGY
+                    </a>
+                </div>
+                <div class="text-sm text-slate-500">
+                    © 2024 MAB AI Strategies LLC. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load Main JavaScript -->
+    <script src="main.js"></script>
+    
+    <!-- Contact Form Script -->
+    <script>
+        function handleContactSubmit(event) {
+            event.preventDefault();
+            
+            const form = event.target;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            
+            // Show loading state
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
+            
+            // Simulate form submission
+            setTimeout(() => {
+                showFormSuccess(form);
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+                form.reset();
+            }, 2000);
+        }
+        
+        function showFormSuccess(form) {
+            const successDiv = document.createElement('div');
+            successDiv.className = 'bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4';
+            successDiv.innerHTML = `
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <div>
+                        <div class="font-semibold">Message sent successfully!</div>
+                        <div class="text-sm">We'll respond within 24 hours with personalized recommendations.</div>
+                    </div>
+                </div>
+            `;
+            
+            form.insertBefore(successDiv, form.firstChild);
+            
+            setTimeout(() => {
+                successDiv.remove();
+            }, 8000);
+        }
+        
+        function toggleFAQ(button) {
+            const faqItem = button.closest('.faq-item');
+            const isActive = faqItem.classList.contains('active');
+            
+            // Close all FAQ items
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+                const icon = item.querySelector('svg');
+                icon.style.transform = 'rotate(0deg)';
+            });
+            
+            // Open clicked item if it wasn't already active
+            if (!isActive) {
+                faqItem.classList.add('active');
+                const icon = button.querySelector('svg');
+                icon.style.transform = 'rotate(180deg)';
+            }
+        }
+    </script>
+</body>
+</html>
